@@ -1,0 +1,20 @@
+code: eu_test
+parentCode: servizi
+titles:
+  en: Eu test
+  it: Eu TEST
+pageModel: 1-column
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: eu2-menu-logic
+    config: null
+    pos: 4
+  - code: eu1-menu
+    config:
+      navSpec: code(administration) + code(news) + code(documents_and_data) + code(servizi)
+    pos: 5
