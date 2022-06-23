@@ -1,0 +1,20 @@
+code: test_bundle
+parentCode: my_homepage
+titles:
+  en: Test bundle
+  it: Test bundle
+pageModel: 1-column
+ownerGroup: free
+joinGroups: []
+displayedInMenu: true
+seo: false
+charset: utf-8
+status: published
+widgets:
+  - code: param-menu
+    config:
+      navSpec: code(homepage) + code(my_homepage)
+    pos: 4
+  - code: logic-menu
+    config: null
+    pos: 5

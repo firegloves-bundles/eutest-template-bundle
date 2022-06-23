@@ -3,7 +3,7 @@ description: Eu Template
 bundle-type: system-level-bundle
 components:
   widgets:
-    - widgets/eu1-menu-descriptor.yaml
-    - widgets/eu2-menu-descriptor.yaml
+    - widgets/param-menu-descriptor.yaml
+    - widgets/logic-menu-descriptor.yaml
   pages:
-    - pages/eu-descriptor.yaml
+    - pages/test-descriptor.yaml

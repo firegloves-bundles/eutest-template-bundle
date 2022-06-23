@@ -1,8 +1,0 @@
-code: eu2-menu-logic
-titles:
-  en: Agid 2nd menu logic
-  it: Agid menu secondario logico
-group: free
-parentCode: eu1-menu
-paramsDefaults:
-  navSpec: code(homepage).subtree(1)

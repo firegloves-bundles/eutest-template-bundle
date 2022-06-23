@@ -1,7 +1,7 @@
-code: eu1-menu
+code: param-menu
 titles:
-  en: Agid main menu
-  it: Agid menu primario
+  en: Parametrized menu
+  it: Menu Parametrico
 group: free
 customUi: |-
   <#assign wp=JspTaglibs["/aps-core"]>
@@ -22,5 +22,8 @@ customUi: |-
     nav-items="[${nav_json_string?html}]"
   ></navigation-bar-widget>
 params:
-  navSpec: Rules for the Page List auto-generation
-action: navigatorConfig
+  - name: navSpec
+    description: Rules for the Page List auto-generation
+  - name: title
+    description: Description of title parameter
+configMfe: "internal:navigatorConfig"
