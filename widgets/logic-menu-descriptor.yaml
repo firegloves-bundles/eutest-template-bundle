@@ -3,6 +3,5 @@ titles:
   en: Logic menu
   it: Menu logico
 group: free
-parentCode: param-menu
 paramsDefaults:
   navSpec: code(homepage)
